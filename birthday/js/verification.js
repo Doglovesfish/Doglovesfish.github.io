@@ -2,7 +2,7 @@ $('#login-button').click(function (event) {
     let userName = document.getElementById("userName").value;
     let pwd = document.getElementById("pwd").value;
     if (userName == "Ricky" && pwd == "HappyBirthday") {
-        $('#h').text("欢迎回来！");
+        $('#h').text("生日快乐 Ricky！");
         event.preventDefault();
         $('form').fadeOut(500);
         $('.wrapper').addClass('form-success');
