@@ -143,12 +143,13 @@
 /**                                   第一部分                                  **/
 /*盒子*/
 .ly-box01 {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: #FFF;
-    border-radius: 25px;
+    border-radius: 10px;
     position: absolute;
     left: 48%;
+
     bottom: 50%;
     margin-bottom: 50%;
     overflow: hidden;
@@ -339,7 +340,8 @@
     font-color: #000;
     position: relative;
     left: 5%;
-    top: 5%;
+    top: 10%;
+	margin-top: -21px;
     opacity: 0;
     animation: ly-stxt01_move 15s;
     animation-delay: 3s;
@@ -990,8 +992,8 @@
 
 /* 盒子 */
 .ly-box11 {
-    width: 30%;
-    height: 600px;
+    width: 60%;
+    height: 550px;
     border: 2px #CCC;
     background-color: #fff;
     background-color: rgba(255, 255, 255, 0.6);
