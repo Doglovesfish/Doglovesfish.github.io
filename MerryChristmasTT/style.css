@@ -39,12 +39,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 60%;
+    height: 70%;
 }
 .logo img{
 
     border-radius: 50%;
-    height: 30%;
+    height: 20%;
 }
 
 
